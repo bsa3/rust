@@ -1,5 +1,15 @@
 rustc --version
+cargo new sample --bin  # bin is for binary not library
 
+cd sample
+cargo run
+
+#crates / librarys
+cargo install rust-curl
+cargo install --git https://github.com/murarth/rusti #IRB
+
+rustc --crate-type=lib base.rs  #create a library file that has .rlib suffix and lib prefix by default
+rustc main.rs --extern base=./libbase.rlib  # to use it don't forget "extern crate base;" in main.rs
 
 # More info
 # http://rustbyexample.com/index.html
