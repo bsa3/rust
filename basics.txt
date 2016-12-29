@@ -1,0 +1,7 @@
+rustc --version
+
+
+# More info
+# http://rustbyexample.com/index.html
+# https://doc.rust-lang.org/nightly/book/
+# https://www.rust-lang.org/
